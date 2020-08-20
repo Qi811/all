@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1, minimum-scale=1.o, user-scalable=no">
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <link rel="dns-prefetch" href="//cangdu.org">
+    <link rel="dns-prefetch" href="//elm.cangdu.org">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link type="text/css" rel="stylesheet" href="/css/common.css" />
+    <script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <body>
+        <div id="bigBox">
+            <div class="image">
+                <ul>
+                    <li><img src="/img/1.webp" /></li>
+                </ul>
+                <span class="fanhui"><a href="#">&lt;</a></span>
+                <span class="shoppingCart"><a href="#"><img src="img/shoppingCart.png" /></a></span>
+                <div class="varbar">
+                    <ul>
+                        <li class="fanhui2"><a href="#">&lt;</a></li>
+                        <li class="list"><a href="#">商品</a></li>
+                        <li class="list"><a href="#">评价</a></li>
+                        <li class="list"><a href="#">详情</a></li>
+                        <li class="shoppingCart"><a href="#"><img src="img/shoppingCar2.png" /></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="price">
+                <div class="discount">
+                    <span class="jiage">￥9.8-14.8</span>
+                    <span class="a">卖家促销</span>
+                    <span class="a">淘金币抵3%</span>
+                    <div class="discount_2">
+                        <label>价格：</label>
+                        <span>￥19.6-19.6</span>
+                    </div>
+                </div>
+                <div class="cell">
+                    <span>风铃挂饰小清新铜铃铛挂件日式创意挂门房间装饰品女生小礼物</span>
+                </div>
+                <div class="adds">
+                    <span>快递：免运费</span>
+                    <span class="sales">月销量 2926件</span>
+                    <span class="addrees">浙江金华</span>
+                </div>
+            </div>
+            
+            <div id="shipline"></div>
+            <div class="itemlist">
+                <div class="promotion">
+                    <label>促销</label>
+                    <soan class="score">积分</soan>
+                    <span class="buyscore">购买可得3积分</span>
+                    <span id="rightwards">&gt;</span>
+                </div>
+                <div class="logistics">
+                    <label>物流</label>
+                    <span>至芙蓉区：现在下单，预计8月5日送达</span>
+                    <span class="img"><img src="img/3.png" /></span>
+                </div>
+                <div class="serve">
+                    <label>促销</label>
+                    <span>假一赔四</span>
+                    <span>·极速退款</span>
+                    <span>·七天无理由退换</span>
+                    <span>·公益宝贝</span>
+                    <span id="rightwards">&gt;</span>
+                </div>
+            </div>
+            <div id="shipline"></div>
+            <div class="itemlist_2">
+                <div class="choice">
+                    <label>选择</label>
+                    <span>请选择颜色分类</span>
+                    <span id="rightwards">&gt;</span>
+                </div>
+                <div class="parameter">
+                    <label>参数</label>
+                    <span>品牌 材质...</span>
+                    <span id="rightwards">&gt;</span>
+                </div>
+            </div>
+            <div id="shipline"></div>
+            <div class="bigEvaluate">
+                <div class="evaluate">
+                    <label>商品评价（9984）</label>
+                    <span>
+                        <a href="javascript:;">
+                            查看全部  &gt;
+                        </a>
+                    </span>
+                </div>
+                <ul>
+                    <li>风铃很漂亮(28)</li>
+                    <li>包装不错(22)</li>
+                    <li>外观不错(17)</li>
+                    <li>尺码标准(9)</li>
+                    <li>做工不错(5)</li>
+                </ul>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+        </div>
+        <script>
+            $(function(){
+                var varbar = $(".varbar").offset().top;
+                $(window).scroll(function(){
+                    if($(window).scrollTop() >= 80){
+                        $(".varbar").attr("style", "position:fixed;top:-.4375rem");
+                    }else{
+                        $(".varbar").attr("style", "display:none;");
+                    }
+                })
+            })
+        </script>
+    </body>
+</html>

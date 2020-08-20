@@ -1,0 +1,186 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+}
+/* 图片 轮播图 */
+.image{
+    width: 100%;
+    height: auto;
+}
+    .image img{
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+    .image .fanhui{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.875rem;
+        color: white;
+        font-weight: bold;
+        line-height: 1.875rem;
+        text-align: center;
+        background-color: RGBA(0, 0, 0, .3);
+        cursor: pointer;
+        border-radius:1.5625rem;
+        position: absolute;
+        top:1.25rem;
+        left:.625rem
+    }
+    .image span img{
+        width: 2.5rem;
+        height: 2.5rem;
+        position: absolute;
+        top:1.25rem;
+        right:1.5625rem;
+    }
+
+.varbar{
+    width: 100%;
+    height: 3.75rem;
+}
+    .varbar ul{
+        width: 100%;
+        height: 3.75rem;
+        vertical-align: middle;
+        background-color: white;
+        position: absolute;
+        top:-0.625rem;
+        display: flex;
+    }
+    .varbar ul li{
+        display: block;
+        flex: 1;
+        text-align: center;
+        font-size: 1.125rem;
+        line-height: 3.125rem;
+    }
+    .varbar .list{
+        width: 6.25rem;
+        text-align: center;
+        margin-left: 1.5625rem;
+    }
+    .varbar .list:active{
+        border-bottom: .125rem red solid;
+    }
+    .varbar .fanhui2{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.875rem;
+        font-weight: bold;
+        position: absolute;
+        left:.3125rem;
+    }
+    .varbar img{
+        width: 1.5625rem;
+        height: 1.5625rem;
+        padding-top: .75rem;
+        padding-right: 2.1875rem;
+    }
+    .varbar ul li a{
+        color: #999999;
+    }
+
+/* 卖家促销 */
+.price .jiage{
+    color: red;
+    font-size: 1.5rem;
+}
+    .price .a{
+        color: white;
+        background-color: red;
+    }
+    .price .discount{
+        padding-left: .375rem;
+    }
+    .price .discount_2{
+        font-size: .75rem;
+        padding-left: .625rem;
+    }
+    .price .discount_2 span{
+        text-decoration: line-through;
+    }
+
+/* 标题 */
+.cell{
+    font-size: .875rem;
+    padding-left: .625rem;
+    padding-top: .375rem;
+}
+
+/* 销量 */
+.adds{
+    font-size: .75rem;
+    margin: 0 0 .4375rem .625rem ;
+    color: dimgrey;
+    display: flex;
+}
+    .adds span{
+        display:block;
+        flex: 1;   
+    }
+    .adds .sales{
+        text-align: center;
+    }
+    .adds .addrees{
+        text-align: right;
+        padding-right: .625rem
+    } 
+
+
+/* 选择  参数 */
+.itemlist{
+    padding-left: .625rem;
+    font-size: 1rem;
+}
+.itemlist label{
+    color: dimgrey;
+    padding-right: .625rem;
+    line-height: 2.5rem;
+}
+    .promotion .score{
+        color: red;
+        font-weight: bold;
+        font-size: .75rem;
+        padding-right: .3125rem
+    }
+    .logistics img{
+        position: relative;
+        top: 1.375rem;
+        right: 17.5rem;
+    }
+    .serve{
+        padding-top: .9375rem;
+    }
+    .serve span{
+        padding-right: .375rem;
+    }
+    
+.itemlist_2{
+    padding-left: .625rem;
+    font-size: 1rem;
+}
+.itemlist_2 label{
+    color: dimgrey;
+    padding-right: .625rem;
+    line-height: 2.8125rem;
+} 
+.itemlist_2 #rightwards{
+    line-height: 2.8125rem;
+    position: static;
+}
+
+.bigEvaluate{
+    padding-left: .625rem;
+    font-size: 1rem;
+}
+    .bigEvaluate label,span{
+        line-height: 2.8125rem;
+    }
+    .bigEvaluate span a{
+        color: red;
+        float: right;
+        padding-right: .625rem;
+    }
+
+
