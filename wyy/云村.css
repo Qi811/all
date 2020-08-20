@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#headYun {
+  width: 100vw;
+  height: 200px;
+  background-color: navajowhite;
+  display: none;
+}

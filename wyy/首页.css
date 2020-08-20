@@ -1,0 +1,374 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#head {
+  width: 100vw;
+  background: url(img/背景图.jpg) no-repeat;
+  /* opacity: 0.5; */
+  background-size: cover;
+  height: 250px;
+}
+#header {
+  background: rgba(0, 0, 0, 0.6);
+  height: 250px;
+}
+#header_1 {
+  width: 100vw;
+  height: 30px;
+}
+#head_lim,
+#head_rim {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  position: fixed;
+}
+#head_lim {
+  float: left;
+  margin-left: 20px;
+}
+#head_rim {
+  float: right;
+  margin-right: 10px;
+  right: 10px;
+}
+#wz {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  float: left;
+  width: 60vw;
+  height: 30px;
+  font-size: 15px;
+  color: gray;
+}
+.wz {
+  font-size: 15px;
+  color: gray;
+}
+
+#head_wz {
+  flex: 1;
+}
+.headwz {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+#head_wz:hover {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+#head_wz:nth-child(1):hover {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+#big_box {
+  /* display: none; */
+}
+#bo {
+  display: block;
+}
+#header_2 {
+  width: 100vw;
+  height: 180px;
+  margin-top: 20px;
+}
+#head_photo {
+  position: absolute;
+  padding-top: 20px;
+  left: 20px;
+  right: 0px;
+  float: left;
+}
+#head_l {
+  width: 140px;
+  display: flex;
+}
+#head_photo_im {
+  flex: 1;
+}
+#head_im {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+#head_name_grade {
+  float: right;
+  flex: 1;
+  padding-top: 5px;
+}
+#head_name {
+  color: white;
+  font-weight: bold;
+}
+#grade {
+  color: white;
+  background-color: gray;
+  width: 35px;
+  height: 20px;
+  text-align: center;
+  padding-left: 5px;
+  margin-top: 7px;
+  border-radius: 30%/30%;
+  font-style: italic;
+  font-size: 14px;
+}
+#head_vip {
+  float: right;
+  position: absolute;
+  top: 28px;
+  right: 10px;
+  font-size: 14px;
+  color: #eee;
+}
+#nav_bar {
+  width: 100vw;
+  display: flex;
+  padding-top: 90px;
+}
+#nav_bar_wz {
+  width: 100vw;
+  display: flex;
+  padding-top: 5px;
+  color: white;
+  font-size: 14px;
+}
+#nav_dv,
+#nav_wz {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bar_im {
+  width: 26px;
+  height: 26px;
+}
+#content {
+  width: 100vw;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  background-color: white;
+  height: 800px;
+  margin-top: -30px;
+}
+#my_music {
+  width: 100vw;
+  height: 20px;
+  padding-top: 20px;
+}
+#music,
+#new {
+  font-size: 17px;
+  font-family: "黑体";
+  font-weight: bold;
+  float: left;
+  padding-left: 15px;
+}
+#rmusic,
+#rnew {
+  color: gray;
+  float: right;
+  padding-right: 15px;
+}
+#rmusic {
+  font-size: 15px;
+}
+#rnew {
+  font-size: 13px;
+}
+#my_tpc {
+  width: 100vw;
+  height: 180px;
+  margin-top: 12px;
+  overflow: auto;
+}
+/* 隐藏滚动条 */
+::-webkit-scrollbar {
+  display: none;
+}
+#tpc {
+  white-space: nowrap;
+  margin-left: 10px;
+}
+#tpc_dv_1,
+#tpc_dv_2,
+#tpc_dv_3,
+#tpc_dv_4,
+#tpc_dv_5 {
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 110px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 6%;
+  background-size: cover;
+}
+#tpc_dv_1 {
+  background-image: url("img/lyw.jpg");
+}
+#tpc_dv_2 {
+  background-image: url("img/mjq.jpg");
+}
+#tpc_dv_3,
+#tpc_dv_4,
+#tpc_dv_5 {
+  background-color: #eff3f4;
+}
+#tpc_dv {
+  background: rgb(0, 0, 0, 0.3);
+  width: 110px;
+  height: 150px;
+  border-radius: 6%;
+}
+#new_music {
+  width: 100vw;
+}
+#top_musicwz {
+  width: 100vw;
+  height: 20px;
+}
+#top_musicim {
+  display: flex;
+}
+#top_musicim,
+#ttop_music {
+  width: 100vw;
+  height: 80px;
+  margin-top: 12px;
+}
+#lmusicim {
+  flex: 1;
+}
+#divlmusicim,
+#divlmusicim_1,
+#divlmusicim_2,
+#divlmusicim_3,
+#divlmusicim_4 {
+  background-size: cover;
+  width: 65px;
+  height: 65px;
+  border-radius: 6%;
+  float: left;
+  margin-left: 14px;
+}
+#divlmusicim {
+  background-image: url("img/md.jpg");
+}
+#divlmusicwz,
+#divlmusicwz_1 {
+  border-radius: 6%;
+  float: right;
+  margin-right: 10px;
+  /* margin-top: 10px; */
+}
+#divlmusicwz {
+  width: 25vw;
+  height: 80px;
+}
+#allmusic,
+#allmusic_1 {
+  font-size: 13px;
+  font-family: "正体";
+  overflow: hidden;
+}
+#num {
+  color: gray;
+  font-size: 12px;
+  margin-top: 6px;
+  font-family: "正体";
+}
+#top_musicim_2 {
+  display: flex;
+}
+#rmusicim {
+  flex: 1;
+}
+#divlmusicwz_1 {
+  width: 25vw;
+  height: 50px;
+}
+#allmusic_1 {
+  width: 25vw;
+  /* word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+#divlmusicim_1 {
+  background-image: url("img/qx.jpg");
+}
+#create {
+  width: 280px;
+  margin-top: 15px;
+  display: flex;
+  float: left;
+}
+#btn_left,
+#btn_center,
+#btn_right {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  font-weight: "正体";
+  padding-left: 15px;
+  color: gray;
+  flex: 1;
+}
+#btn_left {
+  float: left;
+}
+#btn_center {
+  float: right;
+}
+#btn_right {
+  float: right;
+}
+#btn_sd {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+#create_num {
+  font-size: 12px;
+}
+#ttop_music {
+  margin-top: 50px;
+}
+#divlmusicim_3 {
+  background-image: url("img/sr.jpg");
+}
+#divlmusicim_4 {
+  background-image: url("img/mjq.jpg");
+}
+
+#headFx {
+  width: 100vw;
+}
+
+#headYun {
+  width: 100vw;
+  height: 200px;
+  background-color: navajowhite;
+  display: none;
+}
+
+#headVideo {
+  width: 100vw;
+  height: 200px;
+  background-color: blueviolet;
+  display: none;
+}
